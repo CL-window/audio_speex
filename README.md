@@ -1,5 +1,5 @@
 ###Speex在Android上的实现
-from : 
+from : （需要处理权限）
 - http://blog.csdn.net/xyz_lmn/article/details/8013490
 - https://github.com/shangriDong/speex
 - http://blog.csdn.net/kevindgk/article/details/52934221
