@@ -1,6 +1,9 @@
-Speex在Android上的实现
-from : http://blog.csdn.net/xyz_lmn/article/details/8013490
-        https://github.com/shangriDong/speex
+###Speex在Android上的实现
+from : 
+- http://blog.csdn.net/xyz_lmn/article/details/8013490
+- https://github.com/shangriDong/speex
+- http://blog.csdn.net/kevindgk/article/details/52934221
+```
 1.创建新的android工程,直接包含c++代码，并创建cpp文件夹,使用 cmake 编译
 2.speex源码目录下的libspeex和include目录及其子目录文件全部拷贝到$project/cpp目录下。
   Speex 1.2.0  This is the latest stable release of the Speex codec library.
@@ -56,3 +59,4 @@ error2:
     libspeex/arch.h
     Error:(65, 2) error: You now need to define either FIXED_POINT or FLOATING_POINT
 solution: 注释掉那句话
+```
