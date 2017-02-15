@@ -1,0 +1,264 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/jf/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"speex-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "speex",
+			"buildCommand" : "/Users/jf/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi --target speex",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/bits.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/cb_search.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/exc_10_16_table.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/exc_10_32_table.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/exc_20_32_table.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/exc_5_256_table.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/exc_5_64_table.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/exc_8_128_table.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/filters.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/gain_table.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/gain_table_lbr.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/hexc_10_32_table.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/hexc_table.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/high_lsp_tables.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/kiss_fft.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/kiss_fftr.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/lpc.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/lsp.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/lsp_tables_nb.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/ltp.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/modes.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/modes_wb.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/nb_celp.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/quant_lsp.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/sb_celp.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/smallft.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/speex.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/speex_callbacks.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/speex_header.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/stereo.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/testenc.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/testenc_uwb.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/testenc_wb.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/vbr.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/vorbis_psy.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/vq.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/libspeex/window.c",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/jf/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jf/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm  -Dspeex_EXPORTS -I/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/include -isystem /Users/jf/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/jf/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/jf/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/src/main/cpp/speex_jni.cpp",
+					"workingDirectory" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/Users/jf/Desktop/slack/project/audio/Audio2/speex/build/intermediates/cmake/release/obj/armeabi/libspeex.so",
+			"toolchain" : "8124309039802694391"
+		}
+	},
+	"toolchains" : 
+	{
+		"8124309039802694391" : 
+		{
+			"cCompilerExecutable" : "/Users/jf/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/jf/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

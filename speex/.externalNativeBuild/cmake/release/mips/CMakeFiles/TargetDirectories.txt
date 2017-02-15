@@ -1,0 +1,3 @@
+/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/mips/CMakeFiles/edit_cache.dir
+/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/mips/CMakeFiles/rebuild_cache.dir
+/Users/jf/Desktop/slack/project/audio/Audio2/speex/.externalNativeBuild/cmake/release/mips/CMakeFiles/speex.dir

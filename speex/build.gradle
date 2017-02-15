@@ -1,0 +1,94 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "com.cl.slack.speex"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        // cmake add
+        // ndk
+//        ndk {
+//            moduleName "libspeex"               // 指定生成的.so库的名称
+////            abiFilters "armeabi", "x86"          // 指定生成那些CPU平台的.so库，默认生成全部平台
+//            ldLibs "log"                        // 加载log.h，用于在C代码中打印log
+//            cFlags "-DFIXED_POINT -DUSE_KISS_FFT -DEXPORT=\"\" -UHAVE_CONFIG_H"
+//            files("./speex_jni.cpp",
+//                    "./libspeex/bits.c",
+//                    "./libspeex/cb_search.c",
+//                    "./libspeex/exc_5_256_table.c",
+//                    "./libspeex/exc_5_64_table.c",
+//                    "./libspeex/exc_8_128_table.c",
+//                    "./libspeex/exc_10_16_table.c",
+//                    "./libspeex/exc_10_32_table.c",
+//                    "./libspeex/exc_20_32_table.c",
+//                    "./libspeex/filters.c",
+//                    "./libspeex/gain_table.c",
+//                    "./libspeex/gain_table_lbr.c",
+//                    "./libspeex/hexc_10_32_table.c",
+//                    "./libspeex/hexc_table.c",
+//                    "./libspeex/high_lsp_tables.c",
+//                    "./libspeex/kiss_fft.c",
+//                    "./libspeex/kiss_fftr.c",
+//                    "./libspeex/lpc.c",
+//                    "./libspeex/lsp.c",
+//                    "./libspeex/lsp_tables_nb.c",
+//                    "./libspeex/ltp.c",
+//                    "./libspeex/modes.c",
+//                    "./libspeex/modes_wb.c",
+//                    "./libspeex/nb_celp.c",
+//                    "./libspeex/quant_lsp.c",
+//                    "./libspeex/sb_celp.c",
+//                    "./libspeex/smallft.c",
+//                    "./libspeex/speex.c",
+//                    "./libspeex/speex_callbacks.c",
+//                    "./libspeex/speex_header.c",
+//                    "./libspeex/stereo.c",
+//                    "./libspeex/testenc.c",
+//                    "./libspeex/testenc_uwb.c",
+//                    "./libspeex/testenc_wb.c",
+//                    "./libspeex/vbr.c",
+//                    "./libspeex/vorbis_psy.c",
+//                    "./libspeex/vq.c",
+//                    "./libspeex/window.c")
+//        }
+
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+                abiFilters 'x86', 'armeabi-v7a'
+            }
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+        }
+    } // end cmake add
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+//    sourceSets.main {
+//        jni.srcDirs "src/main/jni"         // 指定jni源代码路径，该路径也可以不指定，默认为src/main/jni
+//        jniLibs.srcDir "libs"              // 指定jni的.so库的存放路径，该路径也可以不指定，默认为src/main/jniLibs
+//    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.1.1'
+    testCompile 'junit:junit:4.12'
+}
